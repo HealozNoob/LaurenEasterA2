@@ -15,6 +15,7 @@ Student ID: 30598079
 #include <sstream>
 #include <algorithm>
 #include "Enums.h"
+#include "Location.h"
 using namespace std;
 
 

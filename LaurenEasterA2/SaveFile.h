@@ -16,6 +16,7 @@ Student ID: 30598079
 #include <algorithm>
 #include "Enums.h"
 #include "Location.h"
+#include "Player.h"
 using namespace std;
 
 // Constants
