@@ -31,6 +31,7 @@ vector<Location> locations;
 void gameSetup();
 
 void displayMainMenu(); // starts the game with a main menu, like most games. Has options for NEW GAME or LOAD GAME
+void loadSaveFiles(); // loads savefiles into system at runtime
 void newGameSelected();
 void loadGameSelected();
 
