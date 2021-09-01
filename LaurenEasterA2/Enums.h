@@ -3,8 +3,8 @@
 
 enum LocationType {
 
-	NO_HAZARD //0
-	TOXIC_MOULD //1
+	NOHAZARD, //0
+	TOXICMOULD, //1
 	EVERGREENS //2
 };
 
