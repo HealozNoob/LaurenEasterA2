@@ -7,5 +7,9 @@ Student ID: 30598079
 
 int main() {
 
+	// seed randoms
+	srand(unsigned(time(nullptr)));
+
+
 	return 0;
 }

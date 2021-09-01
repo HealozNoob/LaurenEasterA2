@@ -26,7 +26,40 @@ vector<Location> locations;
 
 // FUNCTION DECLARATIONS ____________________________________________________________________________________
 
-void testCharacter();
-void waitForPlayer();
+// Game setup
+
+void gameSetup();
+
+void displayMainMenu(); // starts the game with a main menu, like most games. Has options for NEW GAME or LOAD GAME
+void newGameSelected();
+void loadGameSelected();
+
+// Displays title at top of screen for continuity
+void displayTitle();
+void displayInformationText();
+
+// NEW GAME
+// Player customising preferences
+void recievePlayerInput();
+void recievePlayerName(string name);
+void recievePlayerSkillLevel(int skillLevel);  // skill level is ranked from 1-3, easy, medium and hard
+
+// Carrying out calculations for the hazards and locations
+void initialiseGameVariables();
+void initialiseLocations();
+void initialiseHazards();
+
+// LOAD GAME
+void displaySaveFiles();
+void selectSaveFile();
+
+// Playing the game
+void displayPlayScreen();
+
+// Large function to make main function cleaner
+void playerTurn();
+
+// Post-game
+void gameFinished();
 
 #endif
