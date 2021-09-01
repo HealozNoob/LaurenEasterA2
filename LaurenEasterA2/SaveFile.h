@@ -45,9 +45,7 @@ public:
 private:
 
 	// private variables
-	string locationName;
-	vector<string> locationExits;
-	string locationDescription;
+	string saveFileName;
 };
 
 #endif
