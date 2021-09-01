@@ -17,6 +17,40 @@ Student ID: 30598079
 #include "Enums.h"
 using namespace std;
 
+// Constants
 
+const int NUMBER_OF_LOCATIONS = 20;
+
+// CLASS DEFINITION
+
+class Location {
+
+	// public variables
+public:
+
+	// Constructors
+
+	Location();
+	Location(string name, vector<string> locationExits, string locationDescription); //overloading constructor
+	~Location();
+
+	// accessor methods
+	string getLocationName();
+	vector<string> getLocationExits();
+	string getLocationDescription();
+
+
+	// mutator methods
+	void setLocationName(string name);
+	void setLocationExits(vector<string> exits);
+	void setLocationDescription(string description);
+	
+private:
+
+	// private variables
+	string locationName;
+	vector<string> locationExits;
+	string locationDescription;
+};
 
 #endif
