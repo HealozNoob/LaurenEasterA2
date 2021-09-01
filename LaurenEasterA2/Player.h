@@ -16,8 +16,17 @@ Student ID: 30598079
 #include <algorithm>
 #include "Enums.h"
 #include "Location.h"
+#include "SaveFile.h"
 using namespace std;
 
+// GLOBAL VARIABLES ____________________________________________________________________________________
 
+vector<SaveFile> saveFiles;
+vector<Location> locations;
+
+// FUNCTION DECLARATIONS ____________________________________________________________________________________
+
+void testCharacter();
+void waitForPlayer();
 
 #endif

@@ -4,3 +4,8 @@ Author: Lauren Easter
 Student ID: 30598079
 */
 #include "Player.h"
+
+int main() {
+
+	return 0;
+}
