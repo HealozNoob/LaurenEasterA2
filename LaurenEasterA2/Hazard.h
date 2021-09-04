@@ -4,8 +4,8 @@ Author: Lauren Easter
 Student ID: 30598079
 */
 
-#ifndef PLAYER_H
-#define PLAYER_H
+#ifndef LOCATION_H
+#define LOCATION_H
 
 #include <iostream>
 #include <string>
@@ -15,24 +15,22 @@ Student ID: 30598079
 #include <sstream>
 #include <algorithm>
 #include "Enums.h"
-#include "Location.h"
-#include "SaveFile.h"
 using namespace std;
 
 // Constants
 
 // CLASS DEFINITION
 
-class Player {
+class Hazard {
 
 	// public variables
 public:
 
 	// Constructors
 
-	Player();
-	Player(string name, vector<string> locationExits, string locationDescription, LocationType type); //overloading constructor
-	~Player();
+	Hazard();
+	//Hazard(); //overloading constructor
+	~Hazard();
 
 	// accessor methods
 	
@@ -44,12 +42,7 @@ public:
 private:
 
 	// private variables
-	string playerName;
-	int arrowCount;
-	int lanternTurnsLeft;
-
-
+	
 };
-
 
 #endif
