@@ -142,6 +142,7 @@
     <ClInclude Include="Application.h" />
     <ClInclude Include="Enums.h" />
     <ClInclude Include="Hazard.h" />
+    <ClInclude Include="Item.h" />
     <ClInclude Include="Location.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="SaveFile.h" />

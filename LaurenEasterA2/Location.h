@@ -31,19 +31,19 @@ public:
 	// Constructors
 
 	Location();
-	Location(string name, vector<string> locationExits, string locationDescription, LocationType type); //overloading constructor
+	Location(string name, vector<LocationExitType> locationExits, string locationDescription, LocationType type); //overloading constructor
 	~Location();
 
 	// accessor methods
 	string getLocationName();
-	vector<string> getLocationExits();
+	string getLocationExits();
 	string getLocationDescription();
-	LocationType getLocationType();
+	string getLocationType();
 
 
 	// mutator methods
 	void setLocationName(string name);
-	void setLocationExits(vector<string> exits);
+	void setLocationExits(vector<LocationExitType> exits);
 	void setLocationDescription(string description);
 	void setLocationType(LocationType type);
 	
@@ -51,7 +51,7 @@ private:
 
 	// private variables
 	string locationName;
-	vector<string> locationExits;
+	vector<LocationExitType> locationExits;
 	string locationDescription;
 	LocationType locationType;
 };
